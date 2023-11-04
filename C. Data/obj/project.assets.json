@@ -808,26 +808,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\camic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\RiderProjects\\Emprende-chef\\C. Data\\C. Data.csproj",
+      "projectUniqueName": "C:\\Users\\camic\\BackEnd\\C. Data\\C. Data.csproj",
       "projectName": "C. Data",
-      "projectPath": "C:\\Users\\Usuario\\RiderProjects\\Emprende-chef\\C. Data\\C. Data.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\RiderProjects\\Emprende-chef\\C. Data\\obj\\",
+      "projectPath": "C:\\Users\\camic\\BackEnd\\C. Data\\C. Data.csproj",
+      "packagesPath": "C:\\Users\\camic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\camic\\BackEnd\\C. Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\camic\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -879,7 +877,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

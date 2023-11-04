@@ -16,7 +16,8 @@ builder.Services.AddSwaggerGen();
 //inyeccion
 builder.Services.AddScoped<IRestaurantDomain, RestaurantDomain>();
 builder.Services.AddScoped<IRestaurantData, RestaurantMySQLData>();
-
+builder.Services.AddScoped<IUserDomain, UserDomain>();
+builder.Services.AddScoped<IUserData, UserSQLData>();
 //Conextion MySQL
 var connectionString = builder.Configuration.GetConnectionString("EmprendeChefDB");
 

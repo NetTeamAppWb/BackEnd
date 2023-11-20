@@ -10,3 +10,15 @@ C:\Users\Usuario\RiderProjects\Emprende-chef\C. Data\obj\Debug\net7.0\refint\C. 
 C:\Users\Usuario\RiderProjects\Emprende-chef\C. Data\obj\Debug\net7.0\C. Data.pdb
 C:\Users\Usuario\RiderProjects\Emprende-chef\C. Data\obj\Debug\net7.0\ref\C. Data.dll
 C:\Users\Usuario\RiderProjects\Emprende-chef\C. Data\obj\Debug\net7.0\C. Data.csproj.AssemblyReference.cache
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\bin\Debug\net7.0\C. Data.deps.json
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\bin\Debug\net7.0\C. Data.dll
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\bin\Debug\net7.0\C. Data.pdb
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\C. Data.csproj.AssemblyReference.cache
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\C. Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\C. Data.AssemblyInfoInputs.cache
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\C. Data.AssemblyInfo.cs
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\C. Data.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\C. Data.dll
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\refint\C. Data.dll
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\C. Data.pdb
+C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\C. Data\obj\Debug\net7.0\ref\C. Data.dll

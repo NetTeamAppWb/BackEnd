@@ -826,19 +826,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\camic\\.nuget\\packages\\": {}
+    "C:\\Users\\jesus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camic\\BackEnd\\B. Domain\\B. Domain.csproj",
+      "projectUniqueName": "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\B. Domain\\B. Domain.csproj",
       "projectName": "B. Domain",
-      "projectPath": "C:\\Users\\camic\\BackEnd\\B. Domain\\B. Domain.csproj",
-      "packagesPath": "C:\\Users\\camic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camic\\BackEnd\\B. Domain\\obj\\",
+      "projectPath": "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\B. Domain\\B. Domain.csproj",
+      "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\B. Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\camic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -850,8 +850,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\camic\\BackEnd\\C. Data\\C. Data.csproj": {
-              "projectPath": "C:\\Users\\camic\\BackEnd\\C. Data\\C. Data.csproj"
+            "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\C. Data\\C. Data.csproj": {
+              "projectPath": "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\C. Data\\C. Data.csproj"
             }
           }
         }
@@ -881,7 +881,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

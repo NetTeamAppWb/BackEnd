@@ -11,9 +11,7 @@ public class ModelToAPI : Profile
 {
     public ModelToAPI()
     {
-        CreateMap<Restaurant, RestaurantRequest>();
+        CreateMap<Restaurant, RestaurantDto>();
         CreateMap<Restaurant, RestaurantResponse>();
-        CreateMap<User, UserRequest>();
-        CreateMap<User, UserResponse>();
     }
 }

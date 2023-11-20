@@ -13,15 +13,14 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//inyeccion
+
+
+//Inyeccion dependencias
 builder.Services.AddScoped<IRestaurantDomain, RestaurantDomain>();
 builder.Services.AddScoped<IRestaurantData, RestaurantMySQLData>();
-builder.Services.AddScoped<IUserDomain, UserDomain>();
-builder.Services.AddScoped<IUserData, UserSQLData>();
-//Conextion MySQL
+
+//Coneccion MySQL
 var connectionString = builder.Configuration.GetConnectionString("EmprendeChefDB");
-
-
 
 builder.Services.AddDbContext<EmprendeChefBDContext>(
     dbContextOptions =>
@@ -42,12 +41,11 @@ builder.Services.AddAutoMapper(
 
 var app = builder.Build();
 
-
 using (var scope=app.Services.CreateScope())
-    using (var context=scope.ServiceProvider.GetService<EmprendeChefBDContext>())
-    {
-        context.Database.EnsureCreated();
-    }
+using (var context=scope.ServiceProvider.GetService<EmprendeChefBDContext>())
+{
+    context.Database.EnsureCreated();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -55,7 +53,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 
 
 app.UseHttpsRedirection();

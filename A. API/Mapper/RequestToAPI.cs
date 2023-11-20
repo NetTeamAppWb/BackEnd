@@ -8,7 +8,6 @@ public class RequestToAPI : Profile
 {
     public RequestToAPI()
     {
-        CreateMap<RestaurantRequest, Restaurant>();
-        CreateMap<UserRequest, User>();
+        CreateMap<RestaurantDto, Restaurant>();
     }
 }

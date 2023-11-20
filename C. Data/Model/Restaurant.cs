@@ -2,19 +2,17 @@
 
 public class Restaurant : Base
 {
-    public int Id { get; set; }
-    public string? Name { get; set; }
-    public string? Foods { get; set; }
-    public int? Schedule { get; set; }
+    public string? Name_Rest { get; set; }
+    public string? Schedule { get; set; }
     public string? Location { get; set; }
-    public string? Owner { get; set; }
-    public string? Payment { get; set; }
-    public int? Calls { get; set; }
-  
+    public string? Category { get; set; }
+    public List<string>? PaymentMethods { get; set; }
+    public string? Calls { get; set; }
     
-    //Relationa
-    public int BaseId { get; set; }
-    public Base Base { get; set; }
+    // Referencia a Businessman (de 1 a 1)
+    public int BusinessmanId { get; set; }
+    public Businessman Businessman { get; set; }
     
-    
+    // Referencia a Food (de 1 restaurante a muchas comidas)
+    public List<Food> Foods { get; set; }
 }

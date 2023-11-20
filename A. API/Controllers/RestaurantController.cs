@@ -52,12 +52,41 @@ namespace A._API.Controllers
         }
         
         
-        /*
+        
         // POST: api/Restaurant
         [HttpPost]
-        public IActionResult Post()
+        public IActionResult Post([FromBody] RestaurantDto restaurantRequest)
         {
-        }*/
+            /*Restaurant restaurant = new Restaurant()
+            {
+                Name = restaurantRequest.Name,
+                Foods = restaurantRequest.Foods,
+                Schedule = restaurantRequest.Schedule,
+                Location = restaurantRequest.Location,
+                Owner = restaurantRequest.Owner,
+                Payment = restaurantRequest.Payment,
+                Calls = restaurantRequest.Calls
+
+
+            };*/
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest();
+                }
+
+                var restaurant = _mapper.Map<RestaurantDto, Restaurant>(restaurantRequest);
+                //RestaurantDomain restaurantDomain = new RestaurantDomain();
+                return Ok(_restaurantDomain.create(restaurant));
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500);
+            }
+
+
+        }
 
         /*
         // PUT: api/Restaurant/5

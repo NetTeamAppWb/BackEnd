@@ -23,7 +23,7 @@ public class EmprendeChefBDContext : DbContext
         {
             var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
             //datos sql
-            optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=jesusltsql;Database=EmprendeChefDB;", serverVersion);
+            optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=Jose192103@19;Database=EmprendeChefDB;", serverVersion);
         }
     }
 

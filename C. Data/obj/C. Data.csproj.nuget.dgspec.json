@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\C. Data\\C. Data.csproj": {}
+    "C:\\Users\\Usuario\\RiderProjects\\BackEnd5\\C. Data\\C. Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\C. Data\\C. Data.csproj": {
+    "C:\\Users\\Usuario\\RiderProjects\\BackEnd5\\C. Data\\C. Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\C. Data\\C. Data.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\RiderProjects\\BackEnd5\\C. Data\\C. Data.csproj",
         "projectName": "C. Data",
-        "projectPath": "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\C. Data\\C. Data.csproj",
-        "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus\\Desktop\\Trabajo - AppWeb\\BackEnd\\C. Data\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\RiderProjects\\BackEnd5\\C. Data\\C. Data.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\RiderProjects\\BackEnd5\\C. Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

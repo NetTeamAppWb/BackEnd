@@ -4,4 +4,5 @@ namespace Domain;
 
 public interface IRestaurantDomain
 {
+    bool create(Restaurant restaurant);
 }

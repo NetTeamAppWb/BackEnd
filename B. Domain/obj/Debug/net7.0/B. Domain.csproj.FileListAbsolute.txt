@@ -28,3 +28,18 @@ C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\B. Domain\obj\Debug\net7.0\B. Do
 C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\B. Domain\obj\Debug\net7.0\refint\B. Domain.dll
 C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\B. Domain\obj\Debug\net7.0\B. Domain.pdb
 C:\Users\jesus\Desktop\Trabajo - AppWeb\BackEnd\B. Domain\obj\Debug\net7.0\ref\B. Domain.dll
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\bin\Debug\net7.0\B. Domain.deps.json
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\bin\Debug\net7.0\B. Domain.dll
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\bin\Debug\net7.0\B. Domain.pdb
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\bin\Debug\net7.0\C. Data.dll
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\bin\Debug\net7.0\C. Data.pdb
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\B. Domain.csproj.AssemblyReference.cache
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\B. Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\B. Domain.AssemblyInfoInputs.cache
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\B. Domain.AssemblyInfo.cs
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\B. Domain.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\B. Domain.csproj.CopyComplete
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\B. Domain.dll
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\refint\B. Domain.dll
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\B. Domain.pdb
+C:\Users\Usuario\RiderProjects\BackEnd5\B. Domain\obj\Debug\net7.0\ref\B. Domain.dll

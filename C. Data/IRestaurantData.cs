@@ -10,4 +10,9 @@ public interface IRestaurantData
     public Restaurant GetByNameRestaurant(string name);
     
     public bool Delete(int id);
+    
+    bool create(Restaurant restaurant);
+
+    bool update(Restaurant tutorial, int id);
+
 }

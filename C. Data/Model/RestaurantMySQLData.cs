@@ -42,4 +42,40 @@ public class RestaurantMySQLData : IRestaurantData
 
         return true; 
     }
+
+    public bool create(Restaurant restaurant)
+    {
+        try
+        {
+            _emprendeChef.Restaurants.Add(restaurant);
+            _emprendeChef.SaveChanges();
+
+            return true;
+        }
+        catch (Exception e)
+        {
+            return false;
+        }
+    }
+
+    public bool update(Restaurant restaurant, int id)
+    {
+        try
+        {
+            var restaurantUpdate = _emprendeChef.Restaurants.Where(r => r.Id == id).FirstOrDefault();
+
+            restaurantUpdate.Name_Rest = restaurant.Name_Rest;
+            restaurantUpdate.Schedule = restaurant.Schedule;
+            restaurantUpdate.Location = restaurant.Location;
+
+            _emprendeChef.Restaurants.Update(restaurantUpdate);
+
+            _emprendeChef.SaveChanges();
+            return true;
+        }
+        catch (Exception e)
+        {
+            return false;
+        }
+    }
 }
